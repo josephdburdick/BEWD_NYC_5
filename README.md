@@ -18,9 +18,9 @@ Each lesson the instructor will post slides, exercises and solution files. To ge
 From the terminal type: 
 (make sure you are in the correct directory)
 
-	```bash
-	git pull upstream master
-	```
+```bash
+git pull upstream master
+```
 	
 ###How Do I Post Files To GitHub?
 
