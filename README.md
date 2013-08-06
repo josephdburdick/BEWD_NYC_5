@@ -3,6 +3,8 @@
 
 Congratulations on joining us at General Assembly for the __Back-End Web Development__ course! **All your class files can be found here**.
 
+=======
+
 ##GITHUB CLASS REPOSITORY
 
 GitHub is a popular developer tool, and we want you to be familiar with it. GA is all about learning by doing, so to learn how to use GitHub we are going to use it every lesson as part of the course.
@@ -18,9 +20,9 @@ Each lesson the instructor will post slides, exercises and solution files. To ge
 From the terminal type: 
 (make sure you are in the correct directory)
 
-	```bash
-	git pull upstream master
-	```
+```bash
+git pull upstream master
+```
 	
 ###How Do I Post Files To GitHub?
 
@@ -34,9 +36,9 @@ To __push__ files to GitHub:
 From the terminal type:
 (make sure you are in the correct directory)
 
-	```bash
-	git push origin master
-	```
+```bash
+git push origin master
+```
 	
 ###What's in a lesson folder?
 
@@ -54,7 +56,7 @@ Each lesson folder contains
 
 *	Follow the questions/prompts and complete the files.
 
-*	To let your instructional team know your work is ready for grading, use the [homework submission form](__ENTER LINK HERE__). You will need a link to your homework that should be posted on GitHub. 
+*	To let your instructional team know your work is ready for grading, use the [homework submission form](__ENTER LINK HERE__). You will need a link to your homework on GitHub. 
 
 	*	If submitting Ruby HW, answer the questions in the [homework](Homework/) folder.
 	
@@ -62,7 +64,7 @@ Each lesson folder contains
 
 ###Where Can I Find Additional Practice Labs?
 
-*	We have a more labs that are not part of the core curriulum. If you want some more practice, go to the Ruby & Rails [exercise bank](https://github.com/ga-students/Ruby_Rails_Exercise_Bank.git).
+*	If you want some more practice, beyond the exercises and homework we've given you, go to the Ruby & Rails [exercise bank](https://github.com/ga-students/Ruby_Rails_Exercise_Bank.git).
 
 
 ##GRADING
