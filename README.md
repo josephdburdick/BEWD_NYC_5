@@ -1,7 +1,4 @@
-Back-End Web Development
-============================
-
-![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](assets/BEWD_Logo.png)
 
 General Assembly's Back-End Web Development course (BEWD) is made up of 20 classes that are 3 hours each. 
 The first 6 classes cover Ruby Basics and the following 14 cover Ruby on Rails.
