@@ -62,7 +62,7 @@ Each lesson folder contains
 
 ###Where Can I Find Additional Practice Labs?
 
-*	We have a more labs that are not part of the core curriulum. If you want some more practice, go to the Ruby & Rails [exercise bank](https://github.com/ga-students/Ruby_Rails_Exercise_Bank.git).
+*	If you want some more practice, beyond the exercises and homework we've given you, go to the Ruby & Rails [exercise bank](https://github.com/ga-students/Ruby_Rails_Exercise_Bank.git).
 
 
 ##GRADING
