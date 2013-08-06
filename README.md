@@ -34,9 +34,9 @@ To __push__ files to GitHub:
 From the terminal type:
 (make sure you are in the correct directory)
 
-	```bash
-	git push origin master
-	```
+```bash
+git push origin master
+```
 	
 ###What's in a lesson folder?
 
