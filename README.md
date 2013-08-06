@@ -17,7 +17,7 @@ From the terminal, clone by typing:
 git clone https://github.com/<USERNAME>/BEWD_<CITY_DATE>.git
 ```
 
-In addition, you should create a link to the instructor's copy on GitHub (adding an upstream remote) so that you can download the latest version of your materials.
+In addition, you should create a link to the instructor's copy on GitHub (add an upstream remote) so that you can download the latest version of your materials.
 
 From the terminal, add an upstream remote by typing:
 
@@ -25,7 +25,7 @@ From the terminal, add an upstream remote by typing:
 git remote add upstream https://github.com/<INSTRUCTOR_USERNAME>/BEWD_<CITY_DATE>.git 
 ```
 
-Verify you added the remote by typiing:
+Verify you added the remote by typing:
 
 ```bash
 git remote -v
