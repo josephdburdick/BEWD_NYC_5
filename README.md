@@ -3,6 +3,8 @@
 
 Congratulations on joining us at General Assembly for the __Back-End Web Development__ course! **All your class files can be found here**.
 
+=======
+
 ##GITHUB CLASS REPOSITORY
 
 GitHub is a popular developer tool, and we want you to be familiar with it. GA is all about learning by doing, so to learn how to use GitHub we are going to use it every lesson as part of the course.
