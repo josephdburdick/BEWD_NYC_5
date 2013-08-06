@@ -54,7 +54,7 @@ Each lesson folder contains
 
 *	Follow the questions/prompts and complete the files.
 
-*	To let your instructional team know your work is ready for grading, use the [homework submission form](__ENTER LINK HERE__). You will need a link to your homework that should be posted on GitHub. 
+*	To let your instructional team know your work is ready for grading, use the [homework submission form](__ENTER LINK HERE__). You will need a link to your homework on GitHub. 
 
 	*	If submitting Ruby HW, answer the questions in the [homework](Homework/) folder.
 	
