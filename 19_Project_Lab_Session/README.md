@@ -1,28 +1,20 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-LESSON 19: Final Project Lab
-========
+##Lesson 19: FINAL PROJECT LAB
 
-
-LEARNING OBJECTIVES
---------
-
-*	Apply and practice knowledge of Rails.
  
- 
- | Time        | Topic| GA ICLs| Comments |
-| ------------- |:-------------|:-------------------|:-------------------|
-| 180 min | Project Lab Session|  | Students work in groups of 2 to discuss project challenges and help eachother debug and add functionality.| 
+###Schedule
+Times below are an approximation
+
+| Time        | Topic|Comments |
+| ------------- :-------------------|:-------------------|
+| 180 min | Project Lab Session|  | 
 
 
 
+###What's Due?
 
-What's Due?
------------
-Nothing
+Final Project Next Lesson
 
 

@@ -1,6 +1,6 @@
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
-#BEWD - Variables and Conditional Logic
+#Resources - Variables and Conditional Logic
 
 ###Cheat Sheet
 

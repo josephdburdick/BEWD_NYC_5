@@ -1,4 +1,4 @@
-<img id="icon" src="https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png">
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 #BEWD - Collections & Loops
 

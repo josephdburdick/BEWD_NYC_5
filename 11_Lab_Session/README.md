@@ -1,36 +1,31 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-Lesson 11: Review & Lab Session
-========
+##Lesson 11: REVIEW & LAB SESSION
 
-LEARNING OBJECTIVES
---------
+
+###Learning Objectives
 
 *	Practice and challenge understanding of Rails thus far.
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
-| Time        | Topic| GA ICLS| Comments |
+
+| Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 45 min | Review |  | General review of all topics thus far.|
-| 135 min | Lab Time | [Ritly](exercises/README.md) <br> [Rewsly](exercises/README.md) | We are not giving students step by step directions in this lab, instead lets challenge them to use what they know about Rails and Ruby to create an app. These exercises are difficult because it will be the first apps students create with minimal direction.|
+| 45 min | Review | General review of all topics thus far.|
+| 135 min | Lab Time | Build two apps from start to finish.|
 
 
 
-HOMEWORK
---------
+###Homework
 
 Complete Rewsly
 
 
-What's Due?
---------
+###What's Due?
 
 *	Movie App
  

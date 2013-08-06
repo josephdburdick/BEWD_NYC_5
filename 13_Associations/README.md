@@ -1,40 +1,35 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-LESSON 13: Associations
+##Lesson 13: ASSOCIATIONS
 ========
 
 
-LEARNING OBJECTIVES
---------
+###Learning Objectives
 
 *	Define primary and foreign keys.
 *	Analyze familiar apps and identify models and their associations.
 *	Utilize Rails documentation to survey and implement active record associations. 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
-| Time        | Topic| GA ICLs| Comments |
+
+| Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 90 min | Identifying Associations | coa [Twitter Associations](code_alongs/README.md) <br> ex [Netflix Associations](exercises/README.md) | Work in groups to draw model association diagrams. We will not focus on ERD or UML diagrams. This exercise should be free form. Focus is on understanding, and drawing will help students understand associations. | 
-| 60 min | Coding Associations | coa [Rewsly_Associations](code_alongs/README.md) | | 
+| 90 min | Identifying Associations | | 
+| 60 min | Coding Associations | | 
  
 
-Note: There is no lab time this session. 
+
+###Homework
+
+[Project Milestone 2](Homework/Rails) due lesson 15.
+
+Write a list of models and draw a diagram of the associations for your final project.
 
 
-HOMEWORK
---------
-
-Project Milestone: Students start to write a list of models and draw the associations for their final project. Due lesson 15.
-
-
-What's Due? 
------------
+###What's Due?
 
 Nothing.
 

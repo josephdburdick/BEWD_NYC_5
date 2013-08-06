@@ -1,14 +1,11 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-Lesson 8: Routes, Controllers & Views
-========
+##Lesson 8: ROUTES, CONTROLLERS & VIEWS
 
-LEARNING OBJECTIVES
---------
+
+###Learning Objectives
+
 
 *	Explain the MVC structure and differentiate between viewS and controllers. 
 *	Describe the request reponse cycle and the flow of control in a Rails app.
@@ -17,8 +14,8 @@ LEARNING OBJECTIVES
 
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
 | Time        | Topic| GA ICLS| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
@@ -28,14 +25,11 @@ SCHEDULE
 | 60 min | Lab Time | Games On Rails (add Rock Paper Scissors) | |
 
 
-
-HOMEWORK
---------
+###Homework
 None
 
 
-What's Due?
---------
+###What's Due?
 
 *	Ruby midterm due.
 *	Final project proposal due lesson 9.

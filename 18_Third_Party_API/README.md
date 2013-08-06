@@ -1,30 +1,23 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-LESSON 18: APIs
-========
+##Lesson 18: APIs
 
 
-LEARNING OBJECTIVES
---------
+###Learning Objectives
 *	Survey available APIs and practice reading documentation.
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
-| Time        | Topic| GA ICLs| Comments |
-| ------------- |:-------------|:-------------------|:-------------------|
-| 20 min | Review | | Review weak areas|
-| 150 min | Adding Third Party APIs| | This lesson is meant to be fun for students. They've worked hard and we wanted to reward them by showcasing some cool stuff. Using the free trial Twillio account, students will create an app that send sms messages.| 
+| Time        | Topic| Comments |
+| ------------- :-------------------|:-------------------|
+| 20 min | Review | Review weak areas|
+| 150 min | Adding Third Party APIs| |
 
 
-
-HOMEWORK
---------
+###Homework
 
 Continue to work on final project.
 

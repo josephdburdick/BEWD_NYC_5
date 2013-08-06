@@ -1,25 +1,80 @@
 ![BEWD_Logo](assets/BEWD_Logo.png)
 
-General Assembly's Back-End Web Development course (BEWD) is made up of 20 classes that are 3 hours each. 
-The first 6 classes cover Ruby Basics and the following 14 cover Ruby on Rails.
 
-MATERIALS
---------
-Lesson folders 1 through 19 include: 
+Congratulations on joining us at General Assembly for the __Back-End Web Development__ course! **All your class files can be found here**.
 
-*	Additional Exercises
+##GITHUB CLASS REPOSITORY
+
+GitHub is a popular developer tool, and we want you to be familiar with it. GA is all about learning by doing, so to learn how to use GitHub we are going to use it every lesson as part of the course.
+
+During the first lesson, you should have made a copy of this repo for your personal use (forked the repo). In addition, you should have created a link to the instructors copy on GitHub (adding an upstream remote).
+
+We know it takes time to get familiar with GitHub so here are a few quick tips.
+
+###How Do I Get Files From GitHub?
+
+Each lesson the instructor will post slides, exercises and solution files. To get these files, pull (download) them from the instructors repository. 
+
+From the terminal type: 
+(make sure you are in the correct directory)
+
+	```bash
+	git pull upstream master
+	```
+	
+###How Do I Post Files To GitHub?
+
+Yes, you may have your files locally on your computer but consider pushing them to the cloud. Here are some benefits. 
+
+*	Easily share your homework with the instructional team for grading. 
+*	Share your files with your teammates.
+
+To __push__ files to GitHub:
+
+From the terminal type:
+(make sure you are in the correct directory)
+
+	```bash
+	git push origin master
+	```
+	
+###What's in a lesson folder?
+
+Each lesson folder contains
+
 *	Code Alongs
 *	Exercises
-*	Homework
-*	Skeleton Deck
-*	Lesson Guide (Readme.md)
+*	Readme (aka agenda)
+*	Resources
+*	Slides
+		
+###How Do I Submit Homework?
 
-We will provide a __private repository__ for your course. This is how you will share ICL files and slides with students. 
-Students will fork your repository and use the fork as their class repo.
+*	Get your homework starter code from the [Homework](Homework/) directory.
+
+*	Follow the questions/prompts and complete the files.
+
+*	To let your instructional team know your work is ready for grading, use the [homework submission form](__ENTER LINK HERE__). You will need a link to your homework that should be posted on GitHub. 
+
+	*	If submitting Ruby HW, answer the questions in the [homework](Homework/) folder.
+	
+	*	If you are submitting a Rails App, create a new GitHub repository. 
+
+###Where Can I Find Additional Practice Labs?
+
+*	We have a more labs that are not part of the core curriulum. If you want some more practice, go to the Ruby & Rails [exercise bank](https://github.com/ga-students/Ruby_Rails_Exercise_Bank.git).
 
 
-TERMINOLOGY
---------
+##GRADING
+
+In order to pass this course General Assembly students must:
+
+*	Complete and submit 80% of all course homework assignments. 
+
+*	Complete and submit the course project (which may include a presentation), earning 	proficiency. See [Project Requirements](Final_Project/final_project_requirements.md). 
+
+
+##TERMINOLOGY
 
 |Term|Description|
 |---|---|
@@ -31,50 +86,12 @@ TERMINOLOGY
 |Quick Fire| A programming challenge students must complete in class. aprox 30 min - 1 hour|
 |Quiz|3-5 questions based on the material from the previous class.|
 |Homework|Exercise files that are to be completed at home and reviewed during class.|
+|Resources| Cheat sheet and links to additional information. Each lesson has one.|
 |Final Project|The personal project each student will submit and present.|
 
 
 
-SYLLABUS
----------
-RUBY BASICS
 
-[Install Fest](00_Install_Fest)
-
-1.	[Developer Workflow](01_01_Dev_Workflow/)
-2.	[Variables Conditionals and Methods](02_Variables_Conditionals)
-3.	[Collections and Loops](03_Collections_Loops)
-4.	[Collections and APIs](04_Collections_APIs)
-5.	[Classes and Objects](05_Classes_Objects)
-6.	[Sharing Behavior](06_Sharing_Behavior)
-
-RUBY ON RAILS
-
-7.	[My First Rails App](07_First_Rails_App)
-8.	[Routes Views Controllers](08_Routes_Cont_Views)
-9.	[Models & Active Record ](09_Models_Active_Record)
-10.	[Forms](10_Forms)
-11.	[Lab Session](11_Lab_Session)
-12.	[Authentication](12_Authentication)
-13.	[Associations](13_Associations)
-14.	[Getting Started](14_Starting)
-15.	[OAuth](15_OAuth)
-16.	[Finishing Touches](16_Finishing_Touches)
-17. [Gems ](Gems)
-18.	[Third Party APIs](18_Third_Party_API)
-19.	[Project Lab Session](19_Project_Lab_Session)
-20. [Project Presentations](20_Final_Project_Presentations)
-
-	
-GRADING
---------
-In order to pass this course General Assembly students must:
-
-*	Complete and submit 80% of all course homework assignments. 
-	*	Students will receive feedback from instructors on their assignments within 2 - 4 days. 
-	
-
-*	Complete and submit the course project (which may include a presentation), earning 	proficiency. See [rubric](final_project_rubric.md). 
 	
 
 

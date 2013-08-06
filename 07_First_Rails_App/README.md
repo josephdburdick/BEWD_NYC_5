@@ -1,15 +1,11 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-Lesson 7: My First Rails App
-========
+##Lesson 7: MY FIRST RAILS APP
 
 
-LEARNING OBJECTIVES
---------
+###Learning Objectives
+
 
 *	Define how DNS servers, web servers and web browsers work together to deliver a Rails app. 
 *	Describe HTTP URI structure and Rails request handling cycle.
@@ -18,28 +14,23 @@ LEARNING OBJECTIVES
 *	Review Rails application file structure. 
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
 
-| Time        | Topic| GA ICLS| Comments |
+| Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-|  30 min | Rails 4 installation| N/A| Allocating 30 min for trouble shooting. |
-| 20 min | Scaffold a Rails App | [Scaffold Books](code_along/README.md) | We start with scaffolding first to give students a glimpse into a rails app. We break down the app further in Rails & My Browser then again in the next lesson.| 
-| 15 min | Intro To Rails| N/A | Our focus is defining a framework. |
-| 60 min | Rails & My Browser| [coa_public_means](code_along/README.md) </br> [ex_draw_internet](code_along/README.md) |  |
-| 60 min | Lab Time | User_Scaffold |  |
+|  30 min | Rails 4 installation| Allocating 30 min for trouble shooting Rails installs. | 
+| 35 min | Intro To Rails| Create your very first Rails app and get a glimpse into the world of Rails. |
+| 60 min | Rails & My Browser| Understanding how my Rails app gets from the server to my web browser.  |
+| 60 min | Lab Time |  |
 
 
+###Homework
+-	[Final project proposal](Homework/README.md) due lesson 9.
 
 
-HOMEWORK
---------
--	[Final project proposal](homework/README.md) due lesson 9.
-
-
-What's Due?
---------
+###What's Due
 
 Next lesson Ruby midterm due.
 

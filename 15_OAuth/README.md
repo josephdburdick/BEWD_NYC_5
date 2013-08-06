@@ -1,37 +1,32 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-LESSON 15: OmniAuth / OAuth
-========	
-LEARNING OBJECTIVES
---------
+##Lesson 15: OMNIAUTH / OAUTH
+	
+###Learning Objectives
 
 *	Investigate third party authentication gems*	Practice reading API documentation
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
-| Time        | Topic| GA ICLs| Comments |
-| ------------- |:-------------|:-------------------|:-------------------|
-| 30 min | Getting Permission From Twitter | coa [Sign Up Application w/ Twitter](code_alongs/)  | Show students how to navigate the Twitter API to get Twitter authentication keys.| 
-| 90 min | OmniAuth / OAuth | coa [Movie App - OmniAuth Gem](code_alongs) | Add authentication through Twitter and reference online api documentation. | 
-| 30 min | Associations Review | Movie App | We added associations to the Movie App association project. This can serve as a reference app for students. Go over it at the end of class if you have the time. | 
 
-Use extra time for review and final projects.
+| Time        | Topic| Comments |
+| ------------- |:-------------|:-------------------|
+| 30 min | Getting Permission From Twitter | Getting authentication keys.| 
+| 90 min | OmniAuth / OAuth | Add authentication through Twitter and reference online api documentation. | 
+| 30 min | Associations Review | Let's review associations.| 
 
-HOMEWORK
---------
 
-Signup for an account with Heroku.
+###Homework
+
+Signup for an account with [Heroku](https://www.heroku.com/).
 
 Review HTML and CSS.
 
-What's Due? 
------------
+###What's Due? 
+
 Final Project Milestone: 
 
 *	User stories

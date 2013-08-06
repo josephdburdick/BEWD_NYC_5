@@ -1,47 +1,39 @@
-BACK-END WEB DEVELOPMENT
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
 
-LESSON 12: Authentication (part 1)
-========
+##Lesson 12: AUTHENTICATION 
 
 
-LEARNING OBJECTIVES
---------
+###Learning Objectives
 
 *	Differentiate between sessions and cookies.
 *	Practice storing identities and user data.
 *	Survey available authentication gems (Devise).
-*	Utilize documentation to implement Devise gem.
-*	Define user stories and how to use them to plan and build a Rails app.
 
 
-SCHEDULE
---------
+###Schedule
+Times below are an approximation
 
-| Time        | Topic| GA ICLS| Comments |
+| Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 20 min | Review | coa [Rewsly-Review](code_alongs) | Review forms.| 
-| 45 min | Authentication |  | High-level explanation about authentication and the steps involved in authenticating users.| 
-| 60 min | Devise | coa [Rewsly-Devise](code_alongs)| During this code along we add devise to Rewsly, and introduce students to view helpers and before_action.|
-| 60 min | Lab Time | [Ritly](code_alongs) | Students add authentication and limit access to unauthorized users.|
+| 20 min | Review | | 
+| 45 min | Authentication |High-level explanation about authentication and the steps involved in authenticating users.| 
+| 60 min | Devise | Use the devise gem to implement authentication.|
+| 60 min | Lab Time | Add authentication and limit access to unauthorized users.|
 
 
-HOMEWORK
---------
+###Homework
 
 What's in your database?
 
-We want students to start thinking about their models and inadvertently associations. This will help students better understand associations which we will cover next lesson.
+Think about the models you will need for your final project.
 
-*	Students will write a list of user information/data they would like their app to keep track of. 
+*	Write a list of information/data you would like your app to keep track of. 
 
 (i.e. In my Rewsly app I want to store my users name, and email address. I also want to keep track of how many stories they created).
 
 
-What's Due? 
------------
+###What's Due? 
+
 Nothing
 

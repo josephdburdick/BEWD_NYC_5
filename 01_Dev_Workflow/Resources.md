@@ -1,7 +1,6 @@
+![BEWD_Logo](../assets/BEWD_Logo.png)
 
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
-
-#Working Like A Developer 
+#Resources - Working Like A Developer 
 
 Class is over, but here are some extra resources.
 
