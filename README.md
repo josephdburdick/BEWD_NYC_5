@@ -14,7 +14,7 @@ During the first lesson, you should make a copy of this repo for your own person
 From the terminal, clone by typing:
 
 ```bash
-git clone https://github.com/<USERNAME>/BEWD_<CITY,DATE>.git
+git clone https://github.com/<USERNAME>/BEWD_<CITY_DATE>.git
 ```
 
 In addition, you should create a link to the instructor's copy on GitHub (adding an upstream remote) so that you can download the latest version of your materials.
@@ -22,14 +22,22 @@ In addition, you should create a link to the instructor's copy on GitHub (adding
 From the terminal, add an upstream remote by typing:
 
 ```bash
-git remote add upstream https://github.com/<INSTRUCTOR_USERNAME>/BEWD_<CITY,DATE>.git 
+git remote add upstream https://github.com/<INSTRUCTOR_USERNAME>/BEWD_<CITY_DATE>.git 
 ```
+
+Verify you added the remote by typiing:
+
+```bash
+git remote -v
+```
+
+
 
 We know it takes time to get familiar with GitHub so here are a few quick tips:
 
 ###How Do I Get Files From GitHub?
 
-For each lesson the instructor will post slides, exercises and, solution files. To get these files, pull (download) them from the instructor's repository. 
+For each lesson the instructor will post slides, exercises and, solution files. To get these files, __pull__ (download) them from the instructor's repository (upstream). 
 
 From the terminal type: 
 (make sure you are in the correct directory)
