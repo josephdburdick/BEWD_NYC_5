@@ -7,15 +7,37 @@ Congratulations on joining us at General Assembly for the __Back-End Web Develop
 
 ##GITHUB CLASS REPOSITORY
 
-GitHub is a popular developer tool, and we want you to be familiar with it. GA is all about learning by doing, so to learn how to use GitHub we are going to use it every lesson as part of the course.
+GitHub is a popular developer tool, and we want you to be familiar with it. GA is all about learning by doing, so in order to learn how to use GitHub we are going to use it every lesson as part of the course.
 
-During the first lesson, you should have made a copy of this repo for your personal use (forked the repo). In addition, you should have created a link to the instructors copy on GitHub (adding an upstream remote).
+During the first lesson, you should make a copy of this repo for your own personal use (fork and then clone the repo). 
 
-We know it takes time to get familiar with GitHub so here are a few quick tips.
+From the terminal, clone by typing:
+
+```bash
+git clone https://github.com/<USERNAME>/BEWD_<CITY_DATE>.git
+```
+
+In addition, you should create a link to the instructor's copy on GitHub (add an upstream remote) so that you can download the latest version of your materials.
+
+From the terminal, add an upstream remote by typing:
+
+```bash
+git remote add upstream https://github.com/<INSTRUCTOR_USERNAME>/BEWD_<CITY_DATE>.git 
+```
+
+Verify you added the remote by typing:
+
+```bash
+git remote -v
+```
+
+
+
+We know it takes time to get familiar with GitHub so here are a few quick tips:
 
 ###How Do I Get Files From GitHub?
 
-Each lesson the instructor will post slides, exercises and solution files. To get these files, pull (download) them from the instructors repository. 
+For each lesson the instructor will post slides, exercises and, solution files. To get these files, __pull__ (download) them from the instructor's repository (upstream). 
 
 From the terminal type: 
 (make sure you are in the correct directory)
@@ -39,6 +61,10 @@ From the terminal type:
 ```bash
 git push origin master
 ```
+
+See this link for more detailed information on fork, upstream, pull, and push:
+https://help.github.com/articles/fork-a-repo
+
 	
 ###What's in a lesson folder?
 
