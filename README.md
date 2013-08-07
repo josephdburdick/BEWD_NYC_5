@@ -59,11 +59,19 @@ From the terminal type:
 (make sure you are in the correct directory)
 
 ```bash
+git add name_and_path_of_files_you_want_to_push
+```
+
+```bash
+git commit -m "Enter commit message"
+```
+
+```bash
 git push origin master
 ```
 
-See this link for more detailed information on fork, upstream, pull, and push:
-https://help.github.com/articles/fork-a-repo
+See this [link](https://help.github.com/articles/fork-a-repo) for more detailed information on fork, upstream, pull, and push:
+
 
 	
 ###What's in a lesson folder?
