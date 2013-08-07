@@ -111,6 +111,36 @@ application.
 
 4. __Setup Ubuntu__
   * Now see the the installation instructions for Ubuntu Linux!
+  
+ 
+#Install Markdown Previewer
+  
+Because we will be using GitHub, many of your homework and agenda files will be in.md format. To view them you will need a markdown viewer.
+
+
+##Mac Users 
+
+ *	Markdown Preview:		[Mou](http://mouapp.com/) 
+	
+		
+##Windows Users
+
+*	Open Sublime Text
+
+*	Go to "View" then "Show Console"
+
+*	Copy and paste the following into the white text box at the bottom of sublime.
+
+```import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
+```
+
+*	Restart Sublime
+
+*	"cmd+shift+P" and select Package Control: Install Package
+
+*	Click Markdown Preview.
+
+When you want to view rendered markdown, open the file in sublime "cmd+shift+P" and select Markdown Preview. 
 
 ##Happy Coding :)
 
