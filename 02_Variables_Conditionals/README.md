@@ -18,10 +18,10 @@ Times below are an approximation
 
 | Time        | Topic|Comments |
 | ------------- |:-------------|:-------------------|
-| 20 min | IRB | Interactive Ruby Shell| 
+| 15 min | Intro To Programming | Changing the way you think.| 
 | 45 min | Variables & Methods | |
-| 20 min | Conditionals |  |
-| 65 min | Lab Time | Happy Coding :) |
+| 15 min | Conditionals |  |
+| 30 min | Lab Time | Happy Coding :) |
 
 
 ###Homework

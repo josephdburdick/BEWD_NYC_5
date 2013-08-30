@@ -1,2 +1,12 @@
+# OS generated files #
+######################
 .DS_Store
+.DS_Store?
 
+
+# Instructor Facing Documents #
+######################
+instr_code_demo_notes.md
+instr_exercise_notes.md
+instr_code_demo_notes.rb
+instr_code_demos/*

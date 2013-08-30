@@ -17,12 +17,12 @@
 ###Schedule
 Times below are an approximation
 
-| Time        | Topic| GA ICLS| Comments |
+| Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
-| 60 min | Routes | [Games On Rails](code_alongs/)| Games on Rails is the only rails app for this lesson.| 
-| 30 min | Controller | Games On Rails  | |
-| 30 min | Views | Games On Rails | |
-| 60 min | Lab Time | Games On Rails (add Rock Paper Scissors) | |
+| 60 min | Routes | Games on Rails is the only rails app for this lesson.| 
+| 30 min | Controller | |
+| 30 min | Views | |
+| 60 min | Lab Time | |
 
 
 ###Homework
