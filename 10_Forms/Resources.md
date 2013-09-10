@@ -90,3 +90,6 @@ This course focus was on forms. You should have a general understanding of form 
 
 *	[Form Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)	
 
+*	Active Record Querying[Documentation](http://guides.rubyonrails.org/active_record_querying.html) - This is an advance topics that talks about querying your database.
+
+
