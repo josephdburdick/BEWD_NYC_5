@@ -14,7 +14,7 @@ During the first lesson, you should make a copy of this repo for your own person
 From the terminal, clone by typing:
 
 ```bash
-git clone https://github.com/<YOUR USERNAME>/BEWD_SYD_2.git
+git clone https://github.com/<YOUR USERNAME>/BEWD_NYC_5.git
 
 ```
 
@@ -23,7 +23,7 @@ In addition, you should create a link to the instructor's copy on GitHub (add an
 From the terminal, add an upstream remote by typing:
 
 ```bash
-git remote add upstream https://github.com/ga-students/BEWD_SYD_2.git 
+git remote add upstream https://github.com/ga-students/BEWD_NYC_5.git 
 ```
 
 Verify you added both remotes by typing:
@@ -103,10 +103,10 @@ See this [link](https://help.github.com/articles/fork-a-repo) for more detailed 
 
 To submit homework, you can follow these steps:
 
-1. First, CD into the place where you store your BEWD files. For many of you this is in either your `BEWD_SYD_2 folder`  
+1. First, CD into the place where you store your BEWD files. For many of you this is in either your `BEWD_NYC_5 folder`  
 
 ```
-cd BEWD_SYD_2
+cd EWD_NYC_5
 ```
 
 2. Copy the homework into your personal directory. You'll want to replace `Secret_Number` and `Brooks Swinnerton` with the homework we're working on and your name respectively:  
