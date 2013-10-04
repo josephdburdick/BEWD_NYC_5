@@ -106,7 +106,7 @@ To submit homework, you can follow these steps:
 1. First, CD into the place where you store your BEWD files. For many of you this is in either your `BEWD_NYC_5 folder`  
 
 ```
-cd EWD_NYC_5
+cd BEWD_NYC_5
 ```
 
 2. Copy the homework into your personal directory. You'll want to replace `Secret_Number` and `Brooks Swinnerton` with the homework we're working on and your name respectively:  
