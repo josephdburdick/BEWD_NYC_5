@@ -88,6 +88,10 @@ We will be using git to make it easy for you to collaborate, share and submit yo
 -	[What is Version Control?](http://www.skillcrush.com/terms/version-control.html)
 -	[TryGit tutorial](http://www.codeschool.com/courses/try-git)
 
+####HTML/CSS
+
+You won't need HTML/CSS until the 4th week, but it is best if you get a head start. Use General Assembly's free HTML/CSS online tutorial [Dash](https://dash.generalassemb.ly/).
+
 
 ##Optional
 
