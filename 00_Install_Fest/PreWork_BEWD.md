@@ -1,5 +1,4 @@
 
-
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
@@ -7,7 +6,7 @@
 
 Congratulations on joining us at General Assembly for the Back-End Web Development course! We are excited to have you, and are looking forward to working with you all soon!
 
-In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( __ENTER DATE__ ). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
+In order to best prepare and ensure success in the course, we’ve gathered a list of resources that we’d like you to complete prior to the course start date ( October 16th ). When you arrive on your first day, everyone will be up to speed and familiar with the necessary programming vocabulary needed to succeed in this course.
 
 Learning Ruby on Rails, is not just about learning to code, it is also about exposure to other developer tools. So, in order to be most prepared we recommend going through the tutorials listed below. This should take you around 5– 7 hours to complete. 
 
