@@ -1,4 +1,3 @@
-
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
@@ -14,7 +13,7 @@ Don’t feel like you have to become a master of everything before coming to cla
 
 Please reach out if you have any questions about anything or need help!
 
-####Happy coding :)
+####Happy hacking :)
 
 - - -
 
