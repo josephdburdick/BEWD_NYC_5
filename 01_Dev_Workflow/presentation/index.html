@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Working Like A Developer</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-transition="slide">
+  <h2>Agenda</h2>
+  
+    <ul> 
+  
+    <li>What's in this class?</li>
+  
+    <li>Your end of the bargain</li>
+  
+    <li>The Command Line</li>
+  
+    <li>Git/Github</li>
+  
+</ul>
+
+  
+</section>
+<section>
+  
+    <section data-transition="slide">
+  <h2>What's in this class?</h2>
+  
+    <p>We'll be covering...</p>
+  
+    <ul> 
+  
+    <li class="fragment ">Command Line / Terminal</li>
+  
+    <li class="fragment ">Git and Github</li>
+  
+    <li class="fragment ">Ruby language</li>
+  
+    <li class="fragment ">Rails Web Framework</li>
+  
+</ul>
+
+  
+    <aside class="notes">Command line mastery is what separates good developers from great ones.
+      Version control is insanely important because it gives you freedom to do dumb stuff.
+      Ruby is beautiful.
+      Rails is awesome.
+      </aside>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h3>Back-end vs Front-end</h3>
+  
+    <p><em>Web Development</em> -> apps built for the web</p>
+  
+    <p><em>Front-End Development</em> -> client / browser code (HTML, CSS, JS)</p>
+  
+    <p><em>Back-End Development</em> -> server-side code (Ruby, C#, Python...)</p>
+  
+</section>
+
+  
+</section>
+<section>
+  
+    <section data-transition="slide">
+  <h2>What I need from you</h2>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Passing</h2>
+  
+    <ul> 
+  
+    <li>Complete 80% of all assigned homework</li>
+  
+    <li>Complete a final project</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Homework</h2>
+  
+    <p>Bigger homework assignments due on Mondays</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Activities</h2>
+  
+    <ul> 
+  
+    <li>Code Alongs</li>
+  
+    <li>Exercises</li>
+  
+    <li>Labs</li>
+  
+    <li>Blog</li>
+  
+</ul>
+
+  
+    <aside class="notes">You're going to get this through your fingers, NOT through writing it down</aside>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Keep in touch</h2>
+  
+    <p>@_StevenNunez</p>
+  
+    <p>steven.nunez@gmail.com</p>
+  
+    <p>Use Lore</p>
+  
+    <p>Ask questions in tlk.io</p>
+  
+    <p>Ask for videos on Trello</p>
+  
+    <p class="fragment grow">Go to Office hours!</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Feedback</h2>
+  
+    <ul> 
+  
+    <li>In person</li>
+  
+    <li>By email</li>
+  
+    <li class="fragment highlight-red">Let me know if you think we suck</li>
+  
+</ul>
+
+  
+    <p class="fragment ">wtf-o-meter</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Pace</h2>
+  
+    <p>Should be tough.</p>
+  
+    <p class="fragment ">Which brings me to a very important point</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Learning as an adult</h2>
+  
+    <p class="fragment ">Try to understand 70-80% of what I'm saying</p>
+  
+    <p class="fragment ">Don't be afraid to look dumb</p>
+  
+    <aside class="notes">I'm saying this so you can fight the urge</aside>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Join the Community</h2>
+  
+    <p>Join meetup groups</p>
+  
+    <ul> 
+  
+    <li>FullStack GA NYC Ruby on Rails</li>
+  
+    <li>nyc.rb</li>
+  
+    <li>NYC on Rails</li>
+  
+    <li>Ruby Blind</li>
+  
+    <li>Code Crew</li>
+  
+    <li>Hacker Hours</li>
+  
+    <li>Unearth Ruby</li>
+  
+</ul>
+
+  
+</section>
+
+  
+</section>
+<section data-transition="slide">
+  <h2>Let's get started</h2>
+  
+    <p class="fragment ">Go over command line practices we'll use in class</p>
+  
+    <p class="fragment ">Learn Git and Github</p>
+  
+    <p class="fragment ">Set up a blog</p>
+  
+    <p class="fragment ">Go home</p>
+  
+</section>
+<section>
+  
+    <section data-transition="slide">
+  <h2>Terminal</h2>
+  
+    <aside class="notes">Walking through walls. This computer is yours. You truly own it when you can make it bend to you will!</aside>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Opening the terminal</h2>
+  
+    <p>On OSX hit command + space and type terminal</p>
+  
+    <p>On Ubuntu open the launcher and type terminal</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>What are we typing</h2>
+  
+    <p>Small programs that usually do one thing, and do it well</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Commands to know</h2>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>touch</h2>
+  
+    <pre><code data-trim class="bash">
+  # Touch is used to update the modified time of a file.
+# If the file doesn't exist, it will create an empty file
+touch main.rb
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>ls</h2>
+  
+    <pre><code data-trim class="bash">
+  ls # shows all files in a folder
+ls -l # shows it in long form
+ls -al # shows all files including hidden files (start with a .)
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>echo</h2>
+  
+    <pre><code data-trim class="bash">
+  echo "I am the one who knocks" # echo what you wrote back to you.
+echo "Something really insightful" >> my_notes
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>cat</h2>
+  
+    <pre><code data-trim class="bash">
+  cat my_notes #shows contents of file for reading
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>mv</h2>
+  
+    <pre><code data-trim class="bash">
+  # mv source destination
+# Used for moving files, but also for renaming
+touch settings
+mv settings settings.old
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>cp</h2>
+  
+    <pre><code data-trim class="bash">
+  # cp source destination
+# Used for copying files and folders
+mkdir pictures
+# copies pictures folder and its files to the desktop
+cp -R pictures ~/Desktop/pictures
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>rm</h2>
+  
+    <pre><code data-trim class="bash">
+  # rm file
+# rm -r folder
+# Used for moving files, but also for renaming
+touch incriminating_evidence
+mkdir pictures
+rm incriminating_evidence
+rm -r pictures
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>tail</h2>
+  
+    <pre><code data-trim class="bash">
+  tail my_notes
+tail -f my_notes
+# open another tab, go to the same folder and type:
+echo "More notes" >> my_notes
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>---</h2>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>grep</h2>
+  
+    <pre><code data-trim class="bash">
+  grep More my_notes # searches for the word More in my_notes
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>pipes '|'</h2>
+  
+    <pre><code data-trim class="bash">
+  grep More my_notes 
+cat my_notes | grep More # does the same thing
+
+</code></pre>
+
+  
+</section>
+
+  
+</section>
+<section>
+  
+    <section data-transition="slide">
+  <h2>Git</h2>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Git vs Github</h2>
+  
+    <p>Git is the program you use to track your files, and commit changes.</p>
+  
+    <p>Github is Facebook for nerds</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Another day</h2>
+  
+    <img src="images/mario_pre.png" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Something's off...</h2>
+  
+    <img src="images/mario_hit.png" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>This happens</h2>
+  
+    <img src="images/mario_dead.png" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Checkpoints</h2>
+  
+    <img src="images/checkpoint.png" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Be Bold</h2>
+  
+    <img src="images/stupid.png" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Stupid things</h2>
+  
+    <img src="images/facepalm.jpg" alt="">
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Overview</h2>
+  
+    <ul> 
+  
+    <li>Git Workflow</li>
+  
+    <li>Doing stupid things - When disaster strikes</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Git Workflow</h2>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Git! Watch this folder</h2>
+  
+    <pre><code data-trim class="bash">
+  git init
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Git! Track these files!</h2>
+  
+    <pre><code data-trim class="bash">
+  git add . # adds all files in the current directory to be "Tracked"
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Code along</h2>
+  
+    <ul> 
+  
+    <li>Create a folder called Final_Project. </li>
+  
+    <li>Change into it</li>
+  
+    <li>Create 2 files: proposal.md, model_diagram.md</li>
+  
+    <li>Tell git to watch this folder</li>
+  
+    <li>Tell git to track the 2 files</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Solution</h2>
+  
+    <pre><code data-trim class="bash">
+  mkdir Final_Project
+cd Final_Project
+touch proposal.md 
+touch model_diagram.md
+git init
+git add proposal.md model_diagram.md
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Git! Freeze!</h2>
+  
+    <p>Note what my files look like right now</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Code along - Commiting</h2>
+  
+    <p>Commit the tracked files with the message of 'Initial Commit'</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Solution</h2>
+  
+    <pre><code data-trim class="bash">
+  git commit -m "Initial Commit"
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Code along</h2>
+  
+    <ul> 
+  
+    <li>Open proposal.md in sublime text</li>
+  
+    <li>Type ‘For my final project, I want to…’</li>
+  
+    <li>(Bonus if you can do this without opening sublime)</li>
+  
+    <li>Check the status of the file</li>
+  
+    <li>Look at the difference in the file</li>
+  
+    <li>Tell git it’s ok to commit this file</li>
+  
+    <li>Commit the file</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Solution</h2>
+  
+    <pre><code data-trim class="bash">
+  echo "For my final project, I want to…" >> proposal.md
+git status
+git diff
+git add .
+git commit -m "Start working on proposal"
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Terminology</h2>
+  
+    <ul> 
+  
+    <li>Repository - A folder managed by git</li>
+  
+    <li>Untracked file - A file git is not monitoring. DANGER</li>
+  
+    <li>Tracked file - A file git is monitoring for changes</li>
+  
+    <li>Unstaged file - A tracked file that will not be included in the next commit</li>
+  
+    <li>Staged file - A tracked file that will be included in the next commit</li>
+  
+    <li>Commit - A snapshot of all staged files at the time of execution</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Code along - Stupidity</h2>
+  
+    <ul> 
+  
+    <li>Delete proposal.md</li>
+  
+    <li>Confirm it’s deleted</li>
+  
+    <li>Bring it back from the dead</li>
+  
+    <li>Celebrate you still have your code</li>
+  
+</ul>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Solution</h2>
+  
+    <pre><code data-trim class="bash">
+  rm proposal.md
+ls proposal.md
+git checkout proposal.md
+echo "WIN!"
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2></h2>
+  
+    <p><blockquote>They say git gets easier once you get the basic idea that branches are homeomorphic endofunctors mapping submanifolds of a Hilbert space.
+      — Kornel (@pornelski) March 25, 2013</blockquote></p>
+  
+</section>
+
+  
+</section>
+<section>
+  
+    <section data-transition="slide">
+  <h2>Blogging with Git</h2>
+  
+    <aside class="notes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</aside>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Octopress</h2>
+  
+    <p>A blogging framework for hackers.</p>
+  
+    <p>http://octopress.org/</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Setting it up</h2>
+  
+    <p class="fragment ">Trust me...</p>
+  
+    <pre><code data-trim class="bash">
+  cd code # where you keep your code
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+bundle install
+bundle exec rake install
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Setting up Github</h2>
+  
+    <p>Create a repository on github named: username.github.io</p>
+  
+    <p>username is YOUR USERNAME</p>
+  
+    <p class="fragment grow">Then back in your terminal...</p>
+  
+    <pre><code data-trim class="bash">
+  rake setup_github_pages
+rake generate
+rake deploy
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Go to username.github.io</h2>
+  
+    <p>You should see... something</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Create a new blog</h2>
+  
+    <p>Stop trusting me now</p>
+  
+    <pre><code data-trim class="bash">
+  rake new_post["Man git is easy"]
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Writing</h2>
+  
+    <p>Edit the markdown file</p>
+  
+    <p>When you're done commit the changed files!</p>
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Put it on the internet!</h2>
+  
+    <pre><code data-trim class="bash">
+  rake generate
+rake deploy
+echo "WOOT!"
+
+</code></pre>
+
+  
+</section>
+
+  
+    <section data-transition="slide">
+  <h2>Homework</h2>
+  
+    <p>Make a new PAGE on octopress and create an about page</p>
+  
+    <p>Due Wednesday</p>
+  
+</section>
+
+  
+</section>
+
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        leap: {
+          naturalSwipe   : true,    // Invert swipe gestures
+          pointerOpacity : 0.5,      // Set pointer opacity to 0.5
+          pointerColor   : '#d80000' // Red pointer
+        },
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'plugin/leap/leap.js', async: true }
+        ]
+      });
+
+    </script>
+  </body>
+</html>
