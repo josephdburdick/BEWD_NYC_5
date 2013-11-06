@@ -19,5 +19,9 @@ Your midterm is considered completed if it meets all requirements above. Your in
 
 API Ideas: 
 
-*	omdapi.com
-*	Twitter search api
+*	http://www.omdbapi.com/
+*	Twitter search api (Requires an api key, but there's a [gem!](https://github.com/sferik/twitter))
+*	Reddit (http://www.reddit.com/.json)
+*	Digg (http://digg.com/api/news/popular.json)
+*	Mashable (http://mashable.com/stories.json)
+*	Whatever you can find!
