@@ -10,7 +10,6 @@ describe Bob do
   end
 
   it "responds to shouting" do
-    skip
     assert_equal 'Woah, chill out!', teenager.hey('WATCH OUT!')
   end
 
@@ -59,7 +58,7 @@ describe Bob do
     assert_equal 'Whatever.', teenager.hey('Ending with ? means a question.')
   end
 
-  it "supports rambling" do 
+  it "supports rambling" do
     skip
     assert_equal 'Sure.', teenager.hey("Wait! Hang on. Are you going to be OK?")
   end

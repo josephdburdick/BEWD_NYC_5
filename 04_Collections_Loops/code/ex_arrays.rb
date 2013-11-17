@@ -44,11 +44,11 @@ end
 
 
 # Create an empty array named categories using a literal
-categories = ___
+categories = []
 assert_equal categories, []
 
 # Create an empty array named categories using Array's #new method
-categories = ___
+categories = Array.new
 assert_equal categories, []
 
 # Add 3 stories to the categories array. Each time using a different method.
@@ -83,7 +83,7 @@ assert_equal(true, categories.include?("Family"))
 # Return all of the Array elements as a comma separated string in alphabetical order
 # persist the sorting of categories
 assert_equal("Animals, Family, Florida, Music, Shopping, Weather", categories.___.___)
-assert_equal(%w(Animals Family Florida Music Shopping Weather), categories)
+assert_equal(%w(Animals Family Florida Music Shopping Weather), categories.sort)
 
 # Remove the first category from the array and print it to the screen "First Category: Category here"
 first_category = categories.___

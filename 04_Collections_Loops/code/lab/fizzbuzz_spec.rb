@@ -1,4 +1,6 @@
 require 'minitest/autorun'
+require_relative 'fizz_buzz'
+
 describe FizzBuzz do
   it "returns 'Fizz' if the number is divisible by 3" do
     fb = FizzBuzz.new
