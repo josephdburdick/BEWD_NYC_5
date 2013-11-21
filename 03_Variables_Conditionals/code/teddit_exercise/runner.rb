@@ -5,13 +5,14 @@ require_relative 'upvote_calculator'
 # Complete the application below.
 # Where you see comments (lines that begin with #) replace it with code so that the program works.
 
+
 class UserIO
   def get_input
-    #Get input from the user
+    gets.chomp
   end
 
   def show(message)
-    #Show whatever gets passed in to the screen
+  	puts message 	
   end
 end
 

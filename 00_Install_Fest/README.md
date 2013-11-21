@@ -146,6 +146,6 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 
 When you want to view rendered markdown, open the file in sublime "cmd+shift+P" and select Markdown Preview. 
 
-##Happy Coding :)
+##Happy Coding, Bro :)
 
 __You're ready for the first class.__
